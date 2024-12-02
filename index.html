@@ -22,9 +22,6 @@
             text-align: center;
             white-space: nowrap;
         }
-        h2, button, footer {
-            font-family: 'Arial', sans-serif;
-        }
         .button-container {
             display: flex;
             flex-direction: column;
@@ -60,51 +57,57 @@
     </style>
 </head>
 <body>
-    <h1>Welcome To mathpunch V2</h1>
+    <h1>Welcome To MathPunch V2</h1>
     <div class="button-container">
-        <button onclick="window.location.href='/games/bitlife';">BitLife</button>
-        <button onclick="window.location.href='/games/stickmanhook';">Stickmanhook</button>
-        <button onclick="window.location.href='/games/supermario64';">Super Mario 64</button>
-        <button onclick="window.location.href='/games/tinyfishing';">Tiny Fishing</button>
-        <button onclick="window.location.href='/games/taptapshots';">Tap Tap Shots</button>
-        <button onclick="window.location.href='/games/drivemad';">Drive Mad</button>
-        <button onclick="window.location.href='/games/emulatorjs';">Emulator JS</button>
-        <button onclick="window.location.href='/games/wordleunlimited';">Wordle Unlimited</button>
-        <button onclick="window.location.href='/games/fruitninja';">Fruit Ninja</button>
-        <button onclick="window.location.href='/games/rooftopsnipers';">Rooftop Snipers</button>
-        <button onclick="window.location.href='/games/tunnelrush';">Tunnel Rush</button>
-        <button onclick="window.location.href='/games/burritobison';">Burrito Bison</button>
-        <button onclick="window.location.href='/games/trashtrucksim';">Trash Truck Simulator</button>
+        <button onclick="redirectTo('https://mathpunch.github.io/panda/');">BitLife</button>
+        <button onclick="redirectTo('https://mathpunch.github.io/kitty/');">Stickmanhook</button>
+        <button onclick="redirectTo('https://mathpunch.github.io/dog/');">Super Mario 64</button>
+        <button onclick="redirectTo('https://mathpunch.github.io/bear/');">Tiny Fishing</button>
+        <button onclick="redirectTo('https://mathpunch.github.io/snake/');">Tap Tap Shots</button>
+        <button onclick="redirectTo('https://mathpunch.github.io/shark/');">Drive Mad</button>
+        <button onclick="redirectTo('https://mathpunch.github.io/zebra/');">Emulator JS</button>
+        <button onclick="redirectTo('https://mathpunch.github.io/turtle/');">Wordle Unlimited</button>
+        <button onclick="redirectTo('https://mathpunch.github.io/doggy/');">Fruit Ninja</button>
+        <button onclick="redirectTo('https://mathpunch.github.io/fox/');">Rooftop Snipers</button>
+        <button onclick="redirectTo('https://mathpunch.github.io/bat/');">Tunnel Rush</button>
+        <button onclick="redirectTo('https://mathpunch.github.io/wolf/');">Burrito Bison</button>
+        <button onclick="redirectTo('https://mathpunch.github.io/monkey/');">Trash Truck Simulator</button>
 
         <h2>Games For Emulator JS</h2>
-        <button onclick="window.location.href='/games/mariokart';">DS: Mario Kart</button>
-        <button onclick="window.location.href='/games/pokemonredfire';">GBA: Pokémon Red Fire</button>
-        <button onclick="window.location.href='/games/legostarwars';">GBA: Lego Star Wars II</button>
+        <button onclick="redirectTo('https://github.com/ixlmathgg/flashy/raw/main/Mario%20Kart.zip');">DS: Mario Kart</button>
+        <button onclick="redirectTo('https://github.com/ixlmathgg/Licky/raw/main/Pokemon%20Red%20Fire.zip');">GBA: Pokémon Red Fire</button>
+        <button onclick="redirectTo('https://github.com/mathpunch/didactic-fortnight/raw/refs/heads/main/LEGO%20Star%20Wars%20II.zip');">GBA: Lego Star Wars II</button>
 
         <h2>MathPunch AI</h2>
-        <button onclick="window.location.href='/ai/clickme';">Click Me</button>
+        <button onclick="redirectTo('https://mathpunch.github.io/crab');">Click Me</button>
 
         <h2>Games Requests</h2>
-        <button onclick="window.location.href='/requests/form';">Click Me</button>
+        <button onclick="redirectTo('https://docs.google.com/forms/d/e/1FAIpQLSc6PG1pB-SmSDqf_gJ_DYWV5HWFtGCcWpgGf2EaS0EpKcICqQ/viewform?usp=sf_link');">Click Me</button>
 
         <h2>Adblocker</h2>
-        <button onclick="window.location.href='/adblocker/shortcut';">Click Me</button>
+        <button onclick="redirectTo('https://www.icloud.com/shortcuts/60f5af18cbfe435f886450e6a4c332e5');">Click Me</button>
 
         <h2>Chatting</h2>
-        <button onclick="window.location.href='/chat';">Click Me</button>
+        <button onclick="redirectTo('https://sites.google.com/view/mathpunch');">Click Me</button>
 
         <h2>Backup Links</h2>
-        <button onclick="window.location.href='/backup';">Click Me</button>
+        <button onclick="redirectTo('https://extramath.github.io/');">Click Me</button>
 
         <h2>New Site Beta</h2>
-        <button onclick="window.location.href='/beta';">Click Me</button>
+        <button onclick="redirectTo('https://mathpunch.us.to/');">Click Me</button>
 
         <h2>Prank Shortcut</h2>
-        <button onclick="window.location.href='/prank/shortcut';">Click Me</button>
+        <button onclick="redirectTo('https://www.icloud.com/shortcuts/4e9a1be2aace434981f58226805be72f');">Click Me</button>
     </div>
 
     <footer>
         Made By Ozzy
     </footer>
+
+    <script>
+        function redirectTo(url) {
+            window.open(url, '_self'); // Full-page redirect
+        }
+    </script>
 </body>
 </html>
