@@ -16,12 +16,14 @@
             background-color: #1a1a1a;
             color: white;
         }
+
         h1 {
             margin: 20px 0;
             font-size: 1.5em;
             text-align: center;
             white-space: nowrap;
         }
+
         .button-container {
             display: flex;
             flex-direction: column;
@@ -30,6 +32,7 @@
             max-height: 80vh;
             width: 100%;
         }
+
         button {
             margin: 15px 0;
             background-color: transparent;
@@ -41,9 +44,11 @@
             width: 100%;
             max-width: 300px;
         }
+
         button:hover {
             background-color: rgba(255, 255, 255, 0.1);
         }
+
         footer {
             position: fixed;
             bottom: 0;
@@ -59,45 +64,45 @@
 <body>
     <h1>Welcome To MathPunch V2</h1>
     <div class="button-container">
-        <button onclick="window.location.href='https://mathpunch.netlify.app/games/bitlife';">BitLife</button>
-        <button onclick="window.location.href='https://mathpunch.netlify.app/games/stickmanhook';">Stickmanhook</button>
-        <button onclick="window.location.href='https://mathpunch.netlify.app/games/supermario64';">Super Mario 64</button>
-        <button onclick="window.location.href='https://mathpunch.netlify.app/games/tinyfishing';">Tiny Fishing</button>
-        <button onclick="window.location.href='https://mathpunch.netlify.app/games/taptapshots';">Tap Tap Shots</button>
-        <button onclick="window.location.href='https://mathpunch.netlify.app/games/drivemad';">Drive Mad</button>
-        <button onclick="window.location.href='https://mathpunch.netlify.app/games/emulatorjs';">Emulator JS</button>
-        <button onclick="window.location.href='https://mathpunch.netlify.app/games/wordleunlimited';">Wordle Unlimited</button>
-        <button onclick="window.location.href='https://mathpunch.netlify.app/games/fruitninja';">Fruit Ninja</button>
-        <button onclick="window.location.href='https://mathpunch.netlify.app/games/rooftopsnipers';">Rooftop Snipers</button>
-        <button onclick="window.location.href='https://mathpunch.netlify.app/games/tunnelrush';">Tunnel Rush</button>
-        <button onclick="window.location.href='https://mathpunch.netlify.app/games/burritobison';">Burrito Bison</button>
-        <button onclick="window.location.href='https://mathpunch.netlify.app/games/trashtrucksim';">Trash Truck Simulator</button>
+        <button onclick="window.location.replace('/games/bitlife');">BitLife</button>
+        <button onclick="window.location.replace('/games/stickmanhook');">Stickmanhook</button>
+        <button onclick="window.location.replace('/games/supermario64');">Super Mario 64</button>
+        <button onclick="window.location.replace('/games/tinyfishing');">Tiny Fishing</button>
+        <button onclick="window.location.replace('/games/taptapshots');">Tap Tap Shots</button>
+        <button onclick="window.location.replace('/games/drivemad');">Drive Mad</button>
+        <button onclick="window.location.replace('/games/emulatorjs');">Emulator JS</button>
+        <button onclick="window.location.replace('/games/wordleunlimited');">Wordle Unlimited</button>
+        <button onclick="window.location.replace('/games/fruitninja');">Fruit Ninja</button>
+        <button onclick="window.location.replace('/games/rooftopsnipers');">Rooftop Snipers</button>
+        <button onclick="window.location.replace('/games/tunnelrush');">Tunnel Rush</button>
+        <button onclick="window.location.replace('/games/burritobison');">Burrito Bison</button>
+        <button onclick="window.location.replace('/games/trashtrucksim');">Trash Truck Simulator</button>
 
-        <h2>Games For Emulator JS</h2>
-        <button onclick="window.location.href='https://github.com/ixlmathgg/flashy/raw/main/Mario%20Kart.zip';">DS: Mario Kart</button>
-        <button onclick="window.location.href='https://github.com/ixlmathgg/Licky/raw/main/Pokemon%20Red%20Fire.zip';">GBA: Pokémon Red Fire</button>
-        <button onclick="window.location.href='https://github.com/mathpunch/didactic-fortnight/raw/refs/heads/main/LEGO%20Star%20Wars%20II.zip';">GBA: Lego Star Wars II</button>
+        <h2>Games for Emulator JS</h2>
+        <button onclick="window.location.replace('/games/mariokart');">DS: Mario Kart</button>
+        <button onclick="window.location.replace('/games/pokemonredfire');">GBA: Pokémon Red Fire</button>
+        <button onclick="window.location.replace('/games/legostarwars');">GBA: Lego Star Wars II</button>
 
         <h2>MathPunch AI</h2>
-        <button onclick="window.location.href='https://mathpunch.netlify.app/ai/clickme';">Click Me</button>
+        <button onclick="window.location.replace('/ai/clickme');">Click Me</button>
 
         <h2>Games Requests</h2>
-        <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSc6PG1pB-SmSDqf_gJ_DYWV5HWFtGCcWpgGf2EaS0EpKcICqQ/viewform?usp=sf_link';">Click Me</button>
+        <button onclick="window.location.replace('/requests/form');">Click Me</button>
 
         <h2>Adblocker</h2>
-        <button onclick="window.location.href='https://www.icloud.com/shortcuts/60f5af18cbfe435f886450e6a4c332e5';">Click Me</button>
+        <button onclick="window.location.replace('/adblocker/shortcut');">Click Me</button>
 
         <h2>Chatting</h2>
-        <button onclick="window.location.href='https://sites.google.com/view/mathpunch';">Click Me</button>
+        <button onclick="window.location.replace('/chat');">Click Me</button>
 
         <h2>Backup Links</h2>
-        <button onclick="window.location.href='https://extramath.github.io/';">Click Me</button>
+        <button onclick="window.location.replace('/backup');">Click Me</button>
 
         <h2>New Site Beta</h2>
-        <button onclick="window.location.href='https://mathpunch.us.to/';">Click Me</button>
+        <button onclick="window.location.replace('/beta');">Click Me</button>
 
         <h2>Prank Shortcut</h2>
-        <button onclick="window.location.href='https://www.icloud.com/shortcuts/4e9a1be2aace434981f58226805be72f';">Click Me</button>
+        <button onclick="window.location.replace('/prank/shortcut');">Click Me</button>
     </div>
 
     <footer>
