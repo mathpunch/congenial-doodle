@@ -1,0 +1,23 @@
+# Keep all requests under the Netlify domain but redirect them to the intended URLs
+/bitlife  /panda/  301
+/stickmanhook  /kitty/  301
+/supermario64  /dog/  301
+/tinyfishing  /bear/  301
+/taptapshots  /shark/  301
+/drivemad  /zebra/  301
+/emulatorjs  /turtle/  301
+/wordleunlimited  /doggy/  301
+/fruitninja  /fox/  301
+/rooftopsnipers  /bat/  301
+/tunnelrush  /wolf/  301
+/burritobison  /monkey/  301
+/dsmariokart  /flashy/raw/main/Mario%20Kart.zip  301
+/gbapokemonredfire  /Licky/raw/main/Pokemon%20Red%20Fire.zip  301
+/gbalegostarwarsii  /didactic-fortnight/raw/refs/heads/main/LEGO%20Star%20Wars%20II.zip  301
+/crab  /crab  301
+/gamerequests  /docs.google.com/forms/d/e/1FAIpQLSc6PG1pB-SmSDqf_gJ_DYWV5HWFtGCcWpgGf2EaS0EpKcICqQ/viewform  301
+/adblocker  /icloud.com/shortcuts/60f5af18cbfe435f886450e6a4c332e5  301
+/chatting  /sites.google.com/view/mathpunch  301
+/backup  /extramath.github.io/  301
+/newsite  /mathpunch.us.to/  301
+/prankshortcut  /icloud.com/shortcuts/4e9a1be2aace434981f58226805be72f  301
