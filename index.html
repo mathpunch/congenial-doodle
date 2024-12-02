@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MathPunch</title>
     <style>
-        /* Apply font family to the entire body */
         body {
-            font-family: 'Arial', sans-serif; /* Apply font to all text */
+            font-family: 'Arial', sans-serif;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -17,22 +16,15 @@
             background-color: #1a1a1a;
             color: white;
         }
-
-        /* Specific style for the "Welcome To mathpunch V2" header */
         h1 {
             margin: 20px 0;
-            font-size: 1.5em; /* Make the welcome text smaller */
+            font-size: 1.5em;
             text-align: center;
             white-space: nowrap;
-            font-family: 'Arial', sans-serif; /* Ensure font consistency */
         }
-
-        /* Ensure all other text uses the same font */
         h2, button, footer {
-            font-family: 'Arial', sans-serif; /* Apply the font family */
+            font-family: 'Arial', sans-serif;
         }
-
-        /* Button container styles */
         .button-container {
             display: flex;
             flex-direction: column;
@@ -41,7 +33,6 @@
             max-height: 80vh;
             width: 100%;
         }
-
         button {
             margin: 15px 0;
             background-color: transparent;
@@ -53,11 +44,9 @@
             width: 100%;
             max-width: 300px;
         }
-
         button:hover {
             background-color: rgba(255, 255, 255, 0.1);
         }
-
         footer {
             position: fixed;
             bottom: 0;
@@ -73,45 +62,45 @@
 <body>
     <h1>Welcome To mathpunch V2</h1>
     <div class="button-container">
-        <button onclick="window.location.href='https://mathpunch.github.io/panda/';">BitLife</button>
-        <button onclick="window.location.href='https://mathpunch.github.io/kitty/';">Stickmanhook</button>
-        <button onclick="window.location.href='https://mathpunch.github.io/dog/';">Super Mario 64</button>
-        <button onclick="window.location.href='https://mathpunch.github.io/bear/';">Tiny Fishing</button>
-        <button onclick="window.location.href='https://mathpunch.github.io/snake/';">Tap Tap Shots</button>
-        <button onclick="window.location.href='https://mathpunch.github.io/shark/';">Drive Mad</button>
-        <button onclick="window.location.href='https://mathpunch.github.io/zebra/';">Emulator JS</button>
-        <button onclick="window.location.href='https://mathpunch.github.io/turtle/';">Wordle Unlimited</button>
-        <button onclick="window.location.href='https://mathpunch.github.io/doggy/';">Fruit Ninja</button>
-        <button onclick="window.location.href='https://mathpunch.github.io/fox/';">Rooftop Snipers</button>
-        <button onclick="window.location.href='https://mathpunch.github.io/bat/';">Tunnel Rush</button>
-        <button onclick="window.location.href='https://mathpunch.github.io/wolf/';">Burrito Bison</button>
-        <button onclick="window.location.href='https://mathpunch.github.io/monkey/';">Trash Truck Simulator</button>
+        <button onclick="window.location.href='/games/bitlife';">BitLife</button>
+        <button onclick="window.location.href='/games/stickmanhook';">Stickmanhook</button>
+        <button onclick="window.location.href='/games/supermario64';">Super Mario 64</button>
+        <button onclick="window.location.href='/games/tinyfishing';">Tiny Fishing</button>
+        <button onclick="window.location.href='/games/taptapshots';">Tap Tap Shots</button>
+        <button onclick="window.location.href='/games/drivemad';">Drive Mad</button>
+        <button onclick="window.location.href='/games/emulatorjs';">Emulator JS</button>
+        <button onclick="window.location.href='/games/wordleunlimited';">Wordle Unlimited</button>
+        <button onclick="window.location.href='/games/fruitninja';">Fruit Ninja</button>
+        <button onclick="window.location.href='/games/rooftopsnipers';">Rooftop Snipers</button>
+        <button onclick="window.location.href='/games/tunnelrush';">Tunnel Rush</button>
+        <button onclick="window.location.href='/games/burritobison';">Burrito Bison</button>
+        <button onclick="window.location.href='/games/trashtrucksim';">Trash Truck Simulator</button>
 
         <h2>Games For Emulator JS</h2>
-        <button onclick="window.location.href='https://github.com/ixlmathgg/flashy/raw/main/Mario%20Kart.zip';">DS: Mario Kart</button>
-        <button onclick="window.location.href='https://github.com/ixlmathgg/Licky/raw/main/Pokemon%20Red%20Fire.zip';">GBA: Pokémon Red Fire</button>
-        <button onclick="window.location.href='https://github.com/mathpunch/didactic-fortnight/raw/refs/heads/main/LEGO%20Star%20Wars%20II.zip';">GBA: Lego Star Wars II</button>
+        <button onclick="window.location.href='/games/mariokart';">DS: Mario Kart</button>
+        <button onclick="window.location.href='/games/pokemonredfire';">GBA: Pokémon Red Fire</button>
+        <button onclick="window.location.href='/games/legostarwars';">GBA: Lego Star Wars II</button>
 
         <h2>MathPunch AI</h2>
-        <button onclick="window.location.href='https://mathpunch.github.io/crab';">Click Me</button>
+        <button onclick="window.location.href='/ai/clickme';">Click Me</button>
 
         <h2>Games Requests</h2>
-        <button onclick="window.location.href='https://docs.google.com/forms/d/e/1FAIpQLSc6PG1pB-SmSDqf_gJ_DYWV5HWFtGCcWpgGf2EaS0EpKcICqQ/viewform?usp=sf_link';">Click Me</button>
+        <button onclick="window.location.href='/requests/form';">Click Me</button>
 
         <h2>Adblocker</h2>
-        <button onclick="window.location.href='https://www.icloud.com/shortcuts/60f5af18cbfe435f886450e6a4c332e5';">Click Me</button>
+        <button onclick="window.location.href='/adblocker/shortcut';">Click Me</button>
 
         <h2>Chatting</h2>
-        <button onclick="window.location.href='https://sites.google.com/view/mathpunch';">Click Me</button>
+        <button onclick="window.location.href='/chat';">Click Me</button>
 
         <h2>Backup Links</h2>
-        <button onclick="window.location.href='https://extramath.github.io/';">Click Me</button>
+        <button onclick="window.location.href='/backup';">Click Me</button>
 
         <h2>New Site Beta</h2>
-        <button onclick="window.location.href='https://mathpunch.us.to/';">Click Me</button>
+        <button onclick="window.location.href='/beta';">Click Me</button>
 
         <h2>Prank Shortcut</h2>
-        <button onclick="window.location.href='https://www.icloud.com/shortcuts/4e9a1be2aace434981f58226805be72f';">Click Me</button>
+        <button onclick="window.location.href='/prank/shortcut';">Click Me</button>
     </div>
 
     <footer>
