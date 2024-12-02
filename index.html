@@ -16,12 +16,18 @@
             background-color: #1a1a1a;
             color: white;
         }
+
         h1 {
             margin: 20px 0;
             font-size: 1.5em;
             text-align: center;
             white-space: nowrap;
         }
+
+        h2, button, footer {
+            font-family: 'Arial', sans-serif;
+        }
+
         .button-container {
             display: flex;
             flex-direction: column;
@@ -30,6 +36,7 @@
             max-height: 80vh;
             width: 100%;
         }
+
         button {
             margin: 15px 0;
             background-color: transparent;
@@ -41,9 +48,11 @@
             width: 100%;
             max-width: 300px;
         }
+
         button:hover {
             background-color: rgba(255, 255, 255, 0.1);
         }
+
         footer {
             position: fixed;
             bottom: 0;
@@ -55,59 +64,59 @@
             color: white;
         }
     </style>
+    <script>
+        function redirectTo(path) {
+            const baseUrl = "https://mathpunch.github.io/";
+            window.open(baseUrl + path, '_self');
+        }
+    </script>
 </head>
 <body>
     <h1>Welcome To MathPunch V2</h1>
     <div class="button-container">
-        <button onclick="redirectTo('https://mathpunch.github.io/panda/');">BitLife</button>
-        <button onclick="redirectTo('https://mathpunch.github.io/kitty/');">Stickmanhook</button>
-        <button onclick="redirectTo('https://mathpunch.github.io/dog/');">Super Mario 64</button>
-        <button onclick="redirectTo('https://mathpunch.github.io/bear/');">Tiny Fishing</button>
-        <button onclick="redirectTo('https://mathpunch.github.io/snake/');">Tap Tap Shots</button>
-        <button onclick="redirectTo('https://mathpunch.github.io/shark/');">Drive Mad</button>
-        <button onclick="redirectTo('https://mathpunch.github.io/zebra/');">Emulator JS</button>
-        <button onclick="redirectTo('https://mathpunch.github.io/turtle/');">Wordle Unlimited</button>
-        <button onclick="redirectTo('https://mathpunch.github.io/doggy/');">Fruit Ninja</button>
-        <button onclick="redirectTo('https://mathpunch.github.io/fox/');">Rooftop Snipers</button>
-        <button onclick="redirectTo('https://mathpunch.github.io/bat/');">Tunnel Rush</button>
-        <button onclick="redirectTo('https://mathpunch.github.io/wolf/');">Burrito Bison</button>
-        <button onclick="redirectTo('https://mathpunch.github.io/monkey/');">Trash Truck Simulator</button>
+        <button onclick="redirectTo('panda/');">BitLife</button>
+        <button onclick="redirectTo('kitty/');">Stickmanhook</button>
+        <button onclick="redirectTo('dog/');">Super Mario 64</button>
+        <button onclick="redirectTo('bear/');">Tiny Fishing</button>
+        <button onclick="redirectTo('snake/');">Tap Tap Shots</button>
+        <button onclick="redirectTo('shark/');">Drive Mad</button>
+        <button onclick="redirectTo('zebra/');">Emulator JS</button>
+        <button onclick="redirectTo('turtle/');">Wordle Unlimited</button>
+        <button onclick="redirectTo('doggy/');">Fruit Ninja</button>
+        <button onclick="redirectTo('fox/');">Rooftop Snipers</button>
+        <button onclick="redirectTo('bat/');">Tunnel Rush</button>
+        <button onclick="redirectTo('wolf/');">Burrito Bison</button>
+        <button onclick="redirectTo('monkey/');">Trash Truck Simulator</button>
 
         <h2>Games For Emulator JS</h2>
-        <button onclick="redirectTo('https://github.com/ixlmathgg/flashy/raw/main/Mario%20Kart.zip');">DS: Mario Kart</button>
-        <button onclick="redirectTo('https://github.com/ixlmathgg/Licky/raw/main/Pokemon%20Red%20Fire.zip');">GBA: Pokémon Red Fire</button>
-        <button onclick="redirectTo('https://github.com/mathpunch/didactic-fortnight/raw/refs/heads/main/LEGO%20Star%20Wars%20II.zip');">GBA: Lego Star Wars II</button>
+        <button onclick="window.open('https://github.com/ixlmathgg/flashy/raw/main/Mario%20Kart.zip', '_self');">DS: Mario Kart</button>
+        <button onclick="window.open('https://github.com/ixlmathgg/Licky/raw/main/Pokemon%20Red%20Fire.zip', '_self');">GBA: Pokémon Red Fire</button>
+        <button onclick="window.open('https://github.com/mathpunch/didactic-fortnight/raw/refs/heads/main/LEGO%20Star%20Wars%20II.zip', '_self');">GBA: Lego Star Wars II</button>
 
         <h2>MathPunch AI</h2>
-        <button onclick="redirectTo('https://mathpunch.github.io/crab');">Click Me</button>
+        <button onclick="redirectTo('crab/');">Click Me</button>
 
         <h2>Games Requests</h2>
-        <button onclick="redirectTo('https://docs.google.com/forms/d/e/1FAIpQLSc6PG1pB-SmSDqf_gJ_DYWV5HWFtGCcWpgGf2EaS0EpKcICqQ/viewform?usp=sf_link');">Click Me</button>
+        <button onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSc6PG1pB-SmSDqf_gJ_DYWV5HWFtGCcWpgGf2EaS0EpKcICqQ/viewform?usp=sf_link', '_self');">Click Me</button>
 
         <h2>Adblocker</h2>
-        <button onclick="redirectTo('https://www.icloud.com/shortcuts/60f5af18cbfe435f886450e6a4c332e5');">Click Me</button>
+        <button onclick="window.open('https://www.icloud.com/shortcuts/60f5af18cbfe435f886450e6a4c332e5', '_self');">Click Me</button>
 
         <h2>Chatting</h2>
-        <button onclick="redirectTo('https://sites.google.com/view/mathpunch');">Click Me</button>
+        <button onclick="window.open('https://sites.google.com/view/mathpunch', '_self');">Click Me</button>
 
         <h2>Backup Links</h2>
-        <button onclick="redirectTo('https://extramath.github.io/');">Click Me</button>
+        <button onclick="window.open('https://extramath.github.io/', '_self');">Click Me</button>
 
         <h2>New Site Beta</h2>
-        <button onclick="redirectTo('https://mathpunch.us.to/');">Click Me</button>
+        <button onclick="window.open('https://mathpunch.us.to/', '_self');">Click Me</button>
 
         <h2>Prank Shortcut</h2>
-        <button onclick="redirectTo('https://www.icloud.com/shortcuts/4e9a1be2aace434981f58226805be72f');">Click Me</button>
+        <button onclick="window.open('https://www.icloud.com/shortcuts/4e9a1be2aace434981f58226805be72f', '_self');">Click Me</button>
     </div>
 
     <footer>
         Made By Ozzy
     </footer>
-
-    <script>
-        function redirectTo(url) {
-            window.open(url, '_self'); // Full-page redirect
-        }
-    </script>
 </body>
 </html>
